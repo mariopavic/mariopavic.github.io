@@ -1,0 +1,1 @@
+hamburger menu, show more categories, started responsive cart
