@@ -370,8 +370,7 @@ $( ".hamburger" ).show();
 });
 
 $(".subitem").hover(
-  function() {
-    console.log($(this).parent());
+  function() { 
     $(this).parent().parent().children("a").toggleClass('selected');
   });
  
