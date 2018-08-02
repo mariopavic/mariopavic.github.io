@@ -6565,9 +6565,9 @@ img.mfp-img {
 /*END RESPONSIVE*/
 
 
-/////////////////////////////GEEK
+/*oooooooooooooGEEKooooooo*/
 
-////////////////MENU//////////
+/*oooooooooooMENUoooooooooooo*/
 
 @media all and (min-width: 800px) { 
   header.main-color li.active > a {
@@ -6700,12 +6700,29 @@ header .subitem a::after {
   }
 }
 
-///////////////////// END MENU
-////////////////////////////
+.main-color #flexnav img {
+  width: 22px;
+  margin-right: 5px;
+}
 
-/////////////////////CART
-/////////////////////////
+/*ooooooooooooooooo END MENU */
+/*oooooooooooooooooooooooooooo*/
+
+/*ooooooooooooooooo   CART   */
+/*oooooooooooooooooooooooooooo*/
 
 .cart-item-image {
   width: 30%;
+} 
+
+
+
+/*ooooooooooooooooo END CART */
+/*oooooooooooooooooooooooooooo*/
+
+/*ooooooooooooooooo PRODUCT */
+/*oooooooooooooooooooooooooooo*/
+
+.atribute-select-form {
+  margin-bottom: 10px;
 } 
