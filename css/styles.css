@@ -6711,9 +6711,83 @@ header .subitem a::after {
 /*ooooooooooooooooo   CART   */
 /*oooooooooooooooooooooooooooo*/
 
-.cart-item-image {
-  width: 30%;
+.cart-table > thead > tr > td:last-child,
+.cart-table > tbody > tr > td:last-child,
+.cart-table > tfoot > tr > td:last-child,
+.cart-table > thead > tr > th:last-child,
+.cart-table > tbody > tr > th:last-child,
+.cart-table > tfoot > tr > th:last-child {
+  text-align: center;
+}
+
+.cart-table .cart-item-remove > a {
+  margin-right: 0;
+  width: 23px;
+  height: 23px;
+}
+.cart-table > thead > tr > th {
+  font-size: 12px;
+}
+.cart-item-image img {
+  width: 45px;
+  height: 45px;
 } 
+.cart-item-price {
+  font-size: 11px;
+}
+.cart-item-title {
+  font-size: 12px; 
+}
+.cart-item-atributes {
+  font-size: 0.8em;
+  display: block;
+}
+.cart-container .btn-primary { 
+  margin-bottom: 10px;
+}
+
+@media all and (min-width: 350px) { 
+  .cart-item-image img {
+    width: 60px;
+    height: 60px;
+  } 
+  .cart-table > thead > tr > th {
+    font-size: 14px;
+  }
+  .cart-item-title {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .cart-item-price {
+    font-size: 13px;
+  }
+}
+@media all and (min-width: 400px) { 
+  .cart-item-image img {
+    width: 70px;
+    height: 70px;
+  } 
+}
+@media all and (min-width: 700px) { 
+  .cart-item-image img {
+    width: 80px;
+    height: 80px;
+  } 
+}
+@media all and (max-width: 500px) { 
+  .cart-container .col-md-8 {
+    padding: 0;
+  } 
+  .cart-table {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .cart-container .btn-primary {
+    margin-left: 15px; 
+  }
+}
+
 
 
 
@@ -6726,3 +6800,31 @@ header .subitem a::after {
 .atribute-select-form {
   margin-bottom: 10px;
 } 
+
+.product-header {
+  background: #fff;
+  padding-top: 10px;
+}
+.product-header img {
+  display: table;
+  margin: 0 auto;
+  width: auto;
+  max-width: 95%;
+}
+
+/*ooooooooooooooooo END PRODUCT */
+/*oooooooooooooooooooooooooooo*/
+
+/*ooooooooooooooooo WISHLIST */
+/*oooooooooooooooooooooooooooo*/
+
+.wishlist-remove {
+  right: 10px;
+  position: absolute;
+  font-size: 25px;
+}
+
+
+/*ooooooooooooooooo END WISHLIST */
+/*oooooooooooooooooooooooooooo*/
+
