@@ -6804,12 +6804,17 @@ header .subitem a::after {
 .product-header {
   background: #fff;
   padding-top: 10px;
+  height: 240px;
 }
 .product-header img {
   display: table;
   margin: 0 auto;
   width: auto;
-  max-width: 95%;
+  max-width: 95%;	
+}
+
+.product-thumb {
+	margin-bottom: 20px;	
 }
 
 /*ooooooooooooooooo END PRODUCT */
