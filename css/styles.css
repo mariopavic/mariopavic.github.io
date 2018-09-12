@@ -6,33 +6,33 @@
 ----------> CONTENTS <--------
 
 ->CORE STYLES
-	-Typography
-	-Buttons
-	-Spacings
-	-Forms
-	-Hover Images
-	-Search Area
-	-Icons
-	-Coupons
-	-Blog
-	-Testimonial
-	-Misc
+  -Typography
+  -Buttons
+  -Spacings
+  -Forms
+  -Hover Images
+  -Search Area
+  -Icons
+  -Coupons
+  -Blog
+  -Testimonial
+  -Misc
 
 
 ->PLUGINS STYLES
-	-Countdown
-	-Nivo Slider
-	-Bootstrap Carousel
-	-Flexnav
-	-Magnific Lightbox
-	-Twitter
-	-Google maps
-	-Content Slider
-	-Medial element HTML5 video/audio player
+  -Countdown
+  -Nivo Slider
+  -Bootstrap Carousel
+  -Flexnav
+  -Magnific Lightbox
+  -Twitter
+  -Google maps
+  -Content Slider
+  -Medial element HTML5 video/audio player
 
 ->CUSTOMIZATION
-	-Demo (just for presentation of certain elements) free to delete
-	-Global Responsive customization
+  -Demo (just for presentation of certain elements) free to delete
+  -Global Responsive customization
 
 ------------------------------
 */
@@ -6810,15 +6810,15 @@ header .subitem a::after {
   display: table;
   margin: 0 auto;
   width: auto;
-  max-width: 95%;	
+  max-width: 95%; 
   max-height: 95%;
-	position: relative;
-  	top: 50%;
-	transform: translateY(-50%);
+  position: relative;
+    top: 50%;
+  transform: translateY(-50%);
 }
 
 .product-thumb {
-	margin-bottom: 20px;	
+  margin-bottom: 20px;  
 }
 
 /*ooooooooooooooooo END PRODUCT */
@@ -6831,9 +6831,8 @@ header .subitem a::after {
   right: 10px;
   position: absolute;
   font-size: 25px;
+  z-index: 1
 }
-
 
 /*ooooooooooooooooo END WISHLIST */
 /*oooooooooooooooooooooooooooo*/
-
