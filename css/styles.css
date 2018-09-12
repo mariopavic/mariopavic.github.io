@@ -6811,6 +6811,10 @@ header .subitem a::after {
   margin: 0 auto;
   width: auto;
   max-width: 95%;	
+  max-height: 95%;
+	position: relative;
+  	top: 50%;
+	transform: translateY(-50%);
 }
 
 .product-thumb {
