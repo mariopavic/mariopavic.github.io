@@ -6836,3 +6836,51 @@ header .subitem a::after {
 
 /*ooooooooooooooooo END WISHLIST */
 /*oooooooooooooooooooooooooooo*/
+
+/*ooooooooooooooooo CONTACT PAGE */
+/*oooooooooooooooooooooooooooo*/
+
+
+.form-area {
+  background-color: #FAFAFA;
+  padding: 25px 20px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.contact-container {
+  padding: 0 10px;
+}
+@media all and (min-width: 360px) { 
+  .form-area { 
+    padding: 25px 40px; 
+    }
+}
+
+/*ooooooooooooooooo END CONTACT PAGE */
+/*oooooooooooooooooooooooooooo*/
+
+/*ooooooooooooooooo FEEDBACK TAB */
+/*oooooooooooooooooooooooooooo*/
+
+.feedbacks-header {
+  color: #2a8fbd;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.feedbacks-header ul {
+  display: inline;
+}
+.feedbacks-header span {
+  color: #555;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.feedbacks-header span::after { 
+    content:"\A";
+    white-space: pre; /* or pre-wrap */
+}
+
+/*ooooooooooooooooo FEEDBACK TAB */
+/*oooooooooooooooooooooooooooo*/
