@@ -35,7 +35,7 @@
     <div class="global-wrap">
 
 
-      <!-- //////////////////////////////////
+     <!-- //////////////////////////////////
     //////////////MAIN HEADER///////////// 
     ////////////////////////////////////-->
 
@@ -224,7 +224,6 @@
         <!-- //////////////////////////////////
     //////////////END MAIN HEADER////////// 
     ////////////////////////////////////-->
-
         <!-- //////////////////////////////////
 	//////////////PAGE CONTENT///////////// 
 	////////////////////////////////////-->
@@ -238,81 +237,56 @@
                         <ul class="nav nav-pills nav-stacked nav-arrow">
                             <li ><a href="my-account-settings.html">Profil</a>
                             </li>
-                            <li class="active"><a href="my-account-addresses.html">Adrese</a>
+                            <li><a href="my-account-addresses.html">Adrese</a>
                             </li>
                             <li><a href="my-account-orders.html">Narudžbe</a>
                             </li>
                             <li><a href="my-account-wishlist.html">Želje</a>
                             </li>
-                            <li><a href="my-account-subs.html">Pretplate</a>
+                            <li class="active"><a href="my-account-subs.html">Pretplate</a>
                             </li>
                         </ul>
                     </aside>
                 </div>
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <table class="table table-order">
-                                <thead>
-                                    <tr>
-                                        <th>Artikl</th>
-                                        <th>Naziv</th>
-                                        <th>Količina</th>
-                                        <th>Cijena</th>
-                                        <th>Datum</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="table-order-img">
-                                            <a href="#">
-                                                <img src="img/70x70.png" alt="Image Alternative text" title="AMaze" />
-                                            </a>
-                                        </td>
-                                        <td><a href="#">Majica</a>
-                                        </td>
-                                        <td>1</td>
-                                        <td>342 HRK</td>
-                                        <td>7/12/2014</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-order-img">
-                                            <a href="#">
-                                                <img src="img/70x70.png" alt="Image Alternative text" title="Urbex Esch/Lux with Laney and Laaaaag" />
-                                            </a>
-                                        </td>
-                                        <td><a href="#">Majica</a>
-                                        </td>
-                                        <td>3</td>
-                                        <td>411 HRK</td>
-                                        <td>7/12/2014</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-order-img">
-                                            <a href="#">
-                                                <img src="img/70x70.png" alt="Image Alternative text" title="Old No7" />
-                                            </a>
-                                        </td>
-                                        <td><a href="#">Tenisice</a>
-                                        </td>
-                                        <td>3</td>
-                                        <td>431 HRK</td>
-                                        <td>7/12/2014</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="table-order-img">
-                                            <a href="#">
-                                                <img src="img/70x70.png" alt="Image Alternative text" title="4 Strokes of Fun" />
-                                            </a>
-                                        </td>
-                                        <td><a href="#">Kapa</a>
-                                        </td>
-                                        <td>2</td>
-                                        <td>312 HRK</td>
-                                        <td>7/12/2014</td>
-                                    </tr> 
-                                </tbody>
-                            </table>
+                <div class="col-md-9"> 
+                    <div id="add-address-dialog" class="mfp-with-anim mfp-hide mfp-dialog clearfix">
+                          <form>
+                            <div class="form-group">
+                                <label>Izaberi kategoriju o čijim ponudama želiš primati obavijesti:   </label>
+                                <select class="form-control">
+                                    <option>-</option>
+                                    <option>Kategorija 1</option>
+                                    <option>Kategorija 2</option> 
+                                </select>
+                            </div>                             
+                            <input type="submit" class="btn btn-primary" value="PRETPLATI SE" />
+                        </form>
+                    </div>
+                    <div class="row row-wrap"> 
+                        <div class="col-md-4">
+                            <div class="address-box">
+                                <a class="address-box-remove" href="#" data-toggle="tooltip" data-placement="right" title="Remove"></a> 
+                                Kategorija 1
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="address-box">
+                                <a class="address-box-remove" href="#" data-toggle="tooltip" data-placement="right" title="Remove"></a> 
+                                Kategorija 2
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="address-box">
+                                <a class="address-box-remove" href="#" data-toggle="tooltip" data-placement="right" title="Remove"></a> 
+                                Kategorija 3
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="address-box address-box-new popup-text" href="#add-address-dialog" data-effect="mfp-move-from-top">
+                                <div class="vert-center"><i class="fa fa-plus address-box-new-icon"></i>
+                                    <p>Dodaj novu pretplatu</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="gap"></div>
@@ -325,8 +299,6 @@
         <!-- //////////////////////////////////
 	//////////////END PAGE CONTENT///////// 
 	////////////////////////////////////-->
-
-
 
 
         <!-- //////////////////////////////////
@@ -431,7 +403,6 @@
         <!-- //////////////////////////////////
     //////////////END MAIN  FOOTER///////// 
     ////////////////////////////////////-->
-
 
 
         <!-- Scripts queries -->

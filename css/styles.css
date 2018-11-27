@@ -6884,3 +6884,46 @@ header .subitem a::after {
 
 /*ooooooooooooooooo FEEDBACK TAB */
 /*oooooooooooooooooooooooooooo*/
+
+
+/*ooooooooooooooooo PRODUCT */
+/*oooooooooooooooooooooooooooo*/
+
+.product-old-price-2 {
+  font-size: 30px;
+  color: #68a0b9;  
+  line-height: 1em;
+  letter-spacing: -3px;
+  text-decoration: line-through;
+}
+.seller-mark {
+  padding-top: 5px;
+}
+.seller-mark span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.merchant-mark {
+  padding: 5px 0;
+}
+
+.merchant-mark span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.timer-icon {
+  width: 25px;
+  margin-bottom: 15px;
+  display: inline;
+}
+
+.timer-text {
+  display: inline;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 1.2em;
+}
+/*ooooooooooooooooo PRODUCT */
+/*oooooooooooooooooooooooooooo*/
