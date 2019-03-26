@@ -193,11 +193,8 @@
                     </label>
                 </div>
                 <input type="submit" value="Registriraj se" class="btn btn-primary">
-            </form>
-            <ul class="dialog-alt-links">
-                <li><a class="popup-text" href="#login-dialog" data-effect="mfp-zoom-out">Već imam korisnički račun</a>
-                </li>
-            </ul>
+                <a href="#login-dialog"> <p class="reg-bottom-text">Već imam korisnički račun </p> </a>
+            </form>          
         </div>
 
 
@@ -222,18 +219,30 @@
         <form class="search-area form-group">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 clearfix">
+                    <div class="col-md-7 clearfix">
                         <label><i class="fa fa-search"></i><span>Zanima me</span>
                         </label>
                         <div class="search-area-division search-area-division-input">
                             <input class="form-control" type="text" placeholder="Upišite traženi pojam" />
                         </div>
                     </div>
-                    <div class="col-md-3 clearfix">
-                        <label><i class="fa fa-map-marker"></i><span>U</span>
+                    <div class="col-md-4 clearfix">
+                        <label><i class="fa fa-map-marker"></i><span>Lokacija</span>
                         </label>
                         <div class="search-area-division search-area-division-location">
-                            <input class="form-control" type="text" placeholder="Zagreb" />
+                            <!--input class="form-control" type="text" placeholder="Zagreb" /-->
+                            <select class="form-control">
+                                 <option value="-"> Svi gradovi... </option>
+                                <option>Zagreb</option>
+                                <option>Dubrovnik</option>
+                                <option>Split</option> 
+                            </select>
+                             <select class="form-control">
+                                <option value="-"> Svi kvartovi... </option>
+                                <option>Vrbik</option>
+                                <option>Centar</option>
+                                <option>Dubrava</option> 
+                            </select>
                         </div>
                     </div>
                     <div class="col-md-1">

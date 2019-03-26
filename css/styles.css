@@ -6705,6 +6705,15 @@ header .subitem a::after {
   margin-right: 5px;
 }
 
+
+.search-area .search-area-division-input {
+  width: 400px;
+}
+
+.search-area .search-btn {
+  margin-top: 5px;
+}
+
 /*ooooooooooooooooo END MENU */
 /*oooooooooooooooooooooooooooo*/
 
@@ -6789,6 +6798,9 @@ header .subitem a::after {
 }
 
 
+.cart-container { 
+  min-height: 55vh;
+}
 
 
 /*ooooooooooooooooo END CART */
@@ -6819,6 +6831,12 @@ header .subitem a::after {
 
 .product-thumb {
   margin-bottom: 20px;  
+}
+
+.product-thumb .product-inner { 
+  background: #fff;
+  padding: 10px 12px;
+  height: 120px;
 }
 
 /*ooooooooooooooooo END PRODUCT */
@@ -6927,3 +6945,17 @@ header .subitem a::after {
 }
 /*ooooooooooooooooo PRODUCT */
 /*oooooooooooooooooooooooooooo*/
+
+
+#register-dialog {
+  height: 550px;
+  overflow-y: scroll;
+  border: 10px solid white;
+}
+
+.reg-bottom-text { 
+  margin-left: 10px; 
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
