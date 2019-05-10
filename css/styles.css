@@ -6802,6 +6802,13 @@ header .subitem a::after {
   min-height: 55vh;
 }
 
+.cart-container-2 {
+  min-height: auto;
+}
+
+.cart-container-2 {
+  margin-bottom: 50px;
+}
 
 /*ooooooooooooooooo END CART */
 /*oooooooooooooooooooooooooooo*/
@@ -6947,10 +6954,17 @@ header .subitem a::after {
 /*oooooooooooooooooooooooooooo*/
 
 
-#register-dialog {
-  height: 550px;
-  overflow-y: scroll;
-  border: 10px solid white;
+/*ooooooooooooooooo REGISTER DIALOG */
+/*oooooooooooooooooooooooooooo*/
+
+ 
+
+@media all and (min-width: 800px) { 
+	#register-dialog {
+		height: 550px;
+		overflow-y: scroll;
+		border: 10px solid white; 
+	}
 }
 
 .reg-bottom-text { 
@@ -6959,3 +6973,31 @@ header .subitem a::after {
   margin-top: 10px;
   margin-bottom: 0;
 }
+
+#login-dialog .dialog-alt-links { 
+  bottom: 0px; 
+}
+
+#login-dialog .dialog-alt-links li:nth-child(1) { 
+  margin-bottom: 15px; 
+}
+
+#login-dialog {
+	border-bottom: 20px solid white;
+}
+
+@media all and (min-width: 375px) { 
+	#login-dialog {
+		border-bottom: 5px solid white;
+	}
+	#login-dialog .dialog-alt-links { 
+	  bottom: 20px; 
+	}
+	#login-dialog .dialog-alt-links li:nth-child(1) { 
+	    margin-bottom: 0px;
+	}
+
+}
+
+/*ooooooooooooooooo END REGISTER DIALOG */
+/*oooooooooooooooooooooooooooo*/
